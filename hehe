@@ -12,8 +12,8 @@ display_menu() {
     echo "  └────────────────────────────────────────────────────────────────────┘"
    echo "                     ----------Created By----------                     "
    echo "            ┌───────────────────────────────────────────────┐           "
-   echo "            │                  MAPTECH-GH                    |          "
-   echo "            │                @maptechghbot                   |          "
+   echo "            │                  MAPTECH-GH                    │          "
+   echo "            │                @maptechghbot                   │          "
    echo "            └───────────────────────────────────────────────┘           "
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
     echo -e "\033[0m"
