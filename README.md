@@ -1,4 +1,4 @@
-## ◇────── MAPTECH VPS MANAGER ───────◇
+## ◇────── INTERNET-DOCTORS VPS MANAGER ───────◇
 
 ㅤ
 <p align="left">
