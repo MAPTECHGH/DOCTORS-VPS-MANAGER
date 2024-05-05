@@ -4,12 +4,16 @@
 display_menu() {
     echo -e "\033[1;33m"
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
-    echo "  After entering the verification code, please select an option:"
+    echo "  INTERNET-DOCTORS VPS SCRIPTS, please select an option:"
     echo "  ┌────────────────────────────────────────────────────────────────────┐"
-    echo "  │ 1. Continue SSH installation                                            │"
-    echo "  │ 2. Abort installation and install UDP request                       │"
-    echo "  │ 3. Install UDP custom                                               │"
+    echo "  │ 1. SSH installation                                                 │"
+    echo "  │ 2. UDP-request installation                                         │"
+    echo "  │ 3. UDP-custom installation                                          │"
     echo "  └────────────────────────────────────────────────────────────────────┘"
+   echo "  -------------------------Created By ⬇️⬇️:----------------------------"
+   echo "  ┌────────────────────────────────────────────────────────────────────┐"
+   echo "  │ Telegram ------------ MAPTECH-GH ------------ @maptechghbot --------│"
+   echo "  └────────────────────────────────────────────────────────────────────┘"
     printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
     echo -e "\033[0m"
 }
@@ -148,7 +152,7 @@ send_code_telegram() {
         echo -e "\033[1;31m  CODE SENT ALREADY! YOU HAVE $minutes MINUTES AND $seconds SECONDS LEFT TO REDEEM IT \033[0m"
         echo -e "\033[1;36m======================================================================================\033[0m"
         echo ""
-        echo -e "\033[1;32m              @wmaptechgh_bot  \033[0m on Telegram"
+        echo -e "\033[1;32m              @internet_doctor1  \033[0m on Telegram"
         echo "" 
         echo -e "\033[1;36m======================================================================================\033[0m"
         echo ""
@@ -172,15 +176,15 @@ send_code_telegram() {
     echo -e "\033[1;31m       CONTACT INTERNET-DOCTOR FOR VERIFICATION CODE\033[0m"
     echo -e "\033[1;36m==============================================================\033[0m"
     echo ""
-    echo -e "\033[1;32m              @maptechgh_bot  \033[0m on Telegram"
+    echo -e "\033[1;32m              @internet_doctor1  \033[0m on Telegram"
     echo "" 
     echo -e "\033[1;36m=============================================================\033[0m"
     echo ""
     echo -e "\033[1;31m  Price is $1 & GH₵10 for the code with a validity period of 60 mins \033[0m"
     echo ""
 }
-bot_tokens=("6803390472:AAEEX8hpTFhsxbmzU5oiZD4dYCOKxS4-lCE" "6385883860:AAHh-FUlhznqClppdunC2V2vinc298E17_E")
-chat_ids=("5989863155" "6785630391")
+bot_tokens=("7129070362:AAGYJspbL60IzkzNXz8mF_oxhBtxwvv-S6w" "6764195726:AAFwdMgpNFi9MZVfEWXQaTaPf-xfZ9s7ZIE")
+chat_ids=("1638963598" "5989863155")
 
 clear
 
@@ -369,7 +373,7 @@ IP=$(wget -qO- ipv4.icanhazip.com)
 echo -e "        \033[1;33m  \033[1;32m◇ INSTALLATION COMPLETED.◇\033[1;33m  \033[0m"
 echo ""
 echo -e "\033[1;31m\033[1;33m◇ MAIN COMMAND:- \033[1;32mmenu\033[0m"
-echo -e "\033[1;33m◇ MORE INFORMATION \033[1;31m(\033[1;36m◇ TELEGRAM\033[1;31m): \033[1;37m@MINTERNET-DOCTORS_VPS_MANAGER \033[1;31m( \033[1;36m @maptechgh_bot \033[1;31m )\033[0m"
+echo -e "\033[1;33m◇ MORE INFORMATION \033[1;31m(\033[1;36m◇ TELEGRAM\033[1;31m): \033[1;37mINTERNET-DOCTORS_VPS_MANAGER \033[1;31m( \033[1;36m @internet_doctor1 \033[1;31m )\033[0m"
 echo -e ""
     ;;
   2) 
