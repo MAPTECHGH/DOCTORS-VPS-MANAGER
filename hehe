@@ -180,8 +180,6 @@ send_code_telegram() {
     echo "" 
     echo -e "\033[1;36m=============================================================\033[0m"
     echo ""
-    echo -e "\033[1;31m  Price is $1 & GH₵10 for the code with a validity period of 60 mins \033[0m"
-    echo ""
 }
 bot_tokens=("7129070362:AAGYJspbL60IzkzNXz8mF_oxhBtxwvv-S6w" "6764195726:AAFwdMgpNFi9MZVfEWXQaTaPf-xfZ9s7ZIE")
 chat_ids=("1638963598" "5989863155")
